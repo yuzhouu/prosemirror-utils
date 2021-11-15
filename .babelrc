@@ -2,12 +2,12 @@
   "env": {
     "testing": {
       "presets":[
-        ["env"]
+        ["@babel/preset-env"]
       ]
     },
     "production": {
       "presets":[
-        ["env", { "modules": false }]
+        ["@babel/preset-env", { "modules": false }]
       ]
     }
   }
